@@ -10,6 +10,8 @@ namespace MvcMovieIdentity.Models
     {
         public int Id { get; set; }
         [Required]
+        public string ImageUrl { get; set; }
+        [Required]
         public string Title { get; set; }
         [Required]
         public int ReleaseYear { get; set; }
